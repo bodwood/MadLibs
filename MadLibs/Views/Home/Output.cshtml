@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello Friend!</title>
-    <link 
-      rel="stylesheet" 
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-      crossorigin="anonymous">
-    <meta charset='utf-8'>
-  </head>
-  <body>
-    <h1>Mad Libs</h1>
-     <p>Once there was a young @Model.Noun named @Model.Name.
-     @Model.Pronoun was a wizard! 🧙‍♂️</p>
-      One day, an owl came with a letter for @Model.Name.</p>
-     <p>It said, "Please come to Hogwarts and learn magic. You will need a robe and a, @Model.ItemChoice,
-     and you may bring one pet. Your ticket for the Hogwarts Express is enclosed."</p>
-    <p></p>
-    <p></p>
-    <p></p>
-  </body>
+
+<head>
+  <title>Hello @Model.Name!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta charset='utf-8'>
+</head>
+
+<body>
+  <h1>Mad Libs</h1>
+  <p>Once there was a young @Model.Noun named @Model.Name.
+    @Model.Pronoun was a wizard! 🧙‍♂️</p>
+  One day, an owl came with a letter for @Model.Name.</p>
+  <p>It said, "Please come to Hogwarts and learn magic. You will need a robe and a @Model.ItemChoice,
+    and you may bring one pet. Your ticket for the Hogwarts Express is enclosed."</p>
+  <p>@Model.Name went to Diagon Alley and bought a @Model.Color @Model.Animal.</p>
+  <p>@Model.Name named their pet @Model.AnimalName 🦂.</p>
+
+  <p></p>
+  <p></p>
+  <p></p>
+</body>
+
 </html>

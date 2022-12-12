@@ -12,7 +12,7 @@ namespace MadLibs.Controllers
     }
 
     [Route("/output")]
-    public ActionResult Output(string noun, string name, string pronoun, string itemchoice)
+    public ActionResult Output(string noun, string name, string pronoun, string itemchoice, string animal, string animalname, string color)
     {
     
      BuildClass newBuildClass = new BuildClass();
@@ -20,6 +20,9 @@ namespace MadLibs.Controllers
      newBuildClass.Name = name;
      newBuildClass.Pronoun = pronoun;
      newBuildClass.ItemChoice = itemchoice;
+     newBuildClass.Animal = animal;
+     newBuildClass.AnimalName = animalname;
+     newBuildClass.Color = color;
      return View(newBuildClass);
     } //ActionResult handles redering views. This one references Output.cshtml. Returns the View of that Output.cshtml
   }
