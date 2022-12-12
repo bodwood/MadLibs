@@ -22,7 +22,7 @@ namespace MadLibs
         pattern: "{controller=Home}/{action=Index}/{id?}"
       );
 
-      app.Run();
+      app.Run();  // runs web app host
     }
   }
 }
