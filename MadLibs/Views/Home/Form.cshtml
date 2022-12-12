@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Create a Custom Postcard!</title>
+    <title>Letter from Hogwarts!</title>
     <link 
       rel="stylesheet" 
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
@@ -10,10 +10,15 @@
     <meta charset='utf-8'>
   </head>
   <body>
-    <h1>Fill in a noun below!</h1>
+    <h1>Wizarding World of AspNetCore</h1>
     <form action="/output" method="post">
-     <label for="noun">Enter a noun</label>
-     <input id="noun" name="noun" type="text">
+     <p>Once there was a young <input id="noun" name="noun" type="text" placeholder="noun"> named <input id="name" name="name" type="text" placeholder="name">.
+     <input id="pronoun" name="pronoun" type="text" placeholder="pronoun"> was a wizard! 🧙‍♂️</p>
+      One day, an owl came with a letter for <input id="name" name="name" type="text" placeholder="name">.</p>
+     <p>It said, "Please come to Hogwarts and learn magic. You will need a robe and a, <input id="itemchoice" name="itemchoice" type="text" placeholder="wand/any item">,
+     and you may bring one pet. Your ticket for the Hogwarts Express is enclosed."</p>
+     <p></p>
+     <!--<input id="noun" name="noun" type="text">-->
      <button type="submit">Go to output!</button>
     </form>
   </body>
