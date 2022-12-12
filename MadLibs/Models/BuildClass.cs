@@ -10,5 +10,9 @@ namespace MadLibs.Models
     public string Animal { get; set; }
     public string AnimalName { get; set; }
     public string Color { get; set; }
+    public string Flavor { get; set; }
+    public string HouseName { get; set; }
+    public string ClassName {get; set; }
+    public string WhyBestClass {get; set;}
   }
 }
